@@ -43,7 +43,7 @@ if ~ischar(in)
 end
 
 if ~ischar(out)
-    error('FILES_IN should be a string')
+    error('FILES_OUT should be a string')
 end
 
 if nargin < 3
